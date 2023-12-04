@@ -1,21 +1,18 @@
-MIT License
+GNU All-Permissive License
 
-Copyright (c) 2023 AronKG
+This is a very permissive license that allows anyone to use, copy, and distribute the software as-is without any restrictions, but without the right to modify or update the code within the original repository.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+0. You are free to use, copy, and distribute this software without any restrictions.
+1. You are not allowed to modify, delete, or update the code within the original repository. You can create your own derivative works based on it, but you must not modify the original repository.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Disclaimer of Liability
+
+The software provided here is distributed under the GNU All-Permissive License. By using, copying, or distributing this software, you agree to the terms of that license. You are free to use the code as-is, but you may not modify, delete, or update the code within the original repository.
+
+The author and contributors of this code are not responsible for any damages, legal issues, or any other consequences that may arise from the use of this software. The software is provided "as is," without warranty of any kind, expressed or implied.
+
+Please use this software responsibly and ensure that you understand the terms of the GNU All-Permissive License. If you have any concerns or require further assistance, consider seeking legal advice or consulting with a professional.
+
+[Your Name and Contact Information]
