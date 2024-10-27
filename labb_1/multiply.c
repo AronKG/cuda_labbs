@@ -44,15 +44,17 @@ void* work_thread(void *arg) {
 
 int main(int argc, char *argv[]) {
 
-	int num = 100000000;
-	int num_threads = 4; 
+	int num = 100000000; // Total number of elements
+	int num_threads = 4; // Number of threads
 	pthread_t  threads[num_threads]; 
 	WorkType work_info[num_threads]; 
 
 	float *a = (float*)aligned_alloc(16, num*sizeof(float));
 	float *b = (float*)aligned_alloc(16, num*sizeof(float));
 	float *r = (float*)aligned_alloc(16, num*sizeof(float));
-	for (int i = 0; i < num; i++)
+
+	//This loop initializes the input arrays a and b with some floating-point values.
+	for (int i = 0; i < num; i++) 
 	{
 	  a[i] = (i % 127)*0.1457f;
 	  b[i] = (i % 331)*0.1231f;
