@@ -5,17 +5,17 @@
 // Number of threads to create
 #define NUM_THREADS 5
 
-// Thread function
+// Thread function, voide* alowing any type of data
 void* printHello(void* threadId) {
-long tid = (long)threadId;
+long tid = (long)threadId; 
 printf("Hello from thread #%ld\n", tid);
-pthread_exit(NULL);
+pthread_exit(NULL);// Terminate the thread
 return NULL; // This line is typically not reached due to pthread_exit above.
 }
 
 int main() {
-	pthread_t threads[NUM_THREADS];
-	int rc;
+	pthread_t threads[NUM_THREADS]; 	// Declare an array to hold thread identifiers
+	int rc;					// Variable to hold return code from pthread_create						
 	for(long t = 0; t < NUM_THREADS; t++) {
 	printf("Creating thread %ld\n", t);
 	rc = pthread_create(&threads[t], NULL, printHello, (void*)t);
