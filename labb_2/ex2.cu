@@ -3,14 +3,14 @@
 
 #include <iostream>
 #include <math.h>
-__global__ void multKernel(int n, float* a, float* b, float* c)
-{ 
-    int index = threadIdx.x;
-    int stride = blockDim.x;
-    for (int i = index; i < n; i += stride) {
-    c[i] = a[i] * b[i];
-  }
+__global__ void multKernel(int n, float* a, float* b, float* c) {
+    int index = threadIdx.x; // Get the thread ID
+    int stride = blockDim.x; // Get the block size
+    for (int i = index; i < n; i += stride) { // Distribute work among threads
+        c[i] = a[i] * b[i]; // Perform multiplication
+    }
 }
+
 int main() {
 int N = 1<<24;
 float *h_a, *h_b, *h_c;
